@@ -2,6 +2,24 @@ html {
   font-size: 14px;
 }
 
+.main-container {
+   margin-left:40px;
+   margin-right:40px;
+   justify-content:center;
+}
+
+.footer-container {
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: center;
+}
+
+.create-container {
+    justify-content: center;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
 @media (min-width: 768px) {
   html {
     font-size: 16px;
