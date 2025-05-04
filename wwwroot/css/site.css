@@ -3,8 +3,9 @@ html {
 }
 
 .main-container {
-   margin-left:40px;
-   margin-right:40px;
+
+   margin-left:10em;
+   margin-right:10em;
    justify-content:center;
 }
 
@@ -16,8 +17,7 @@ html {
 
 .create-container {
     justify-content: center;
-    margin-left: 4px;
-    margin-right: 4px;
+   
 }
 
 @media (min-width: 768px) {

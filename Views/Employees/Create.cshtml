@@ -14,12 +14,14 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="row">
                 <div class="d-flex flex-md-row flex-column gap-2 mt-4">
-                    <div class="form-group w-100">
+                    <div class="form-group w-50">
                         <label asp-for="EmpNo" class="control-label"></label>
                         <input asp-for="EmpNo" class="form-control" />
                         <span asp-validation-for="EmpNo" class="text-danger"></span>
                     </div>
+                </div>
 
+                <div class="d-flex flex-md-row flex-column gap-2 mt-4">
                     <div class="form-group w-100">
                         <label asp-for="FirstName" class="control-label"></label>
                         <input asp-for="FirstName" class="form-control" />
@@ -41,39 +43,43 @@
 
                 <div class="d-flex flex-md-row flex-column gap-2 mt-4">
                     
-                        <div class="form-group w-100">
-                            <label asp-for="PhoneNumber" class="control-label"></label>
-                            <input asp-for="PhoneNumber" class="form-control" />
-                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
-                        </div>
+                    <div class="form-group w-100">
+                        <label asp-for="PhoneNumber" class="control-label"></label>
+                        <input asp-for="PhoneNumber" class="form-control" />
+                        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                    </div>
                
-                        <div class="form-group w-100">
-                            <label asp-for="EmailAddress" class="control-label"></label>
-                            <input asp-for="EmailAddress" class="form-control" />
-                            <span asp-validation-for="EmailAddress" class="text-danger"></span>
-                        </div>
+                    <div class="form-group w-100">
+                        <label asp-for="EmailAddress" class="control-label"></label>
+                        <input asp-for="EmailAddress" class="form-control" />
+                        <span asp-validation-for="EmailAddress" class="text-danger"></span>
+                    </div>
         
-                        <div class="form-group w-100">
-                            <label asp-for="Country" class="control-label"></label>
-                            <input asp-for="Country" class="form-control" />
-                            <span asp-validation-for="Country" class="text-danger"></span>
-                        </div>
+                      
                 </div>
 
 
                 <div class="d-flex flex-md-row flex-column gap-2 mt-4">
+
+                    <div class="form-group w-100">
+                        <label asp-for="Country" class="control-label"></label>
+                        <input asp-for="Country" class="form-control" />
+                        <span asp-validation-for="Country" class="text-danger"></span>
+                    </div>
                    
-                        <div class="form-group w-100">
-                            <label asp-for="DateOfBirth" class="control-label"></label>
-                            <input asp-for="DateOfBirth" class="form-control" />
-                            <span asp-validation-for="DateOfBirth" class="text-danger"></span>
-                        </div>
-                
-                        <div class="form-group w-100">
-                            <label asp-for="Address" class="control-label"></label>
-                            <input asp-for="Address" class="form-control" />
-                            <span asp-validation-for="Address" class="text-danger"></span>
-                        </div>
+                    <div class="form-group w-100">
+                        <label asp-for="DateOfBirth" class="control-label"></label>
+                        <input asp-for="DateOfBirth" class="form-control" />
+                        <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-md-row flex-column gap-2 mt-4">
+                    <div class="form-group w-100">
+                        <label asp-for="Address" class="control-label"></label>
+                        <input asp-for="Address" class="form-control" />
+                        <span asp-validation-for="Address" class="text-danger"></span>
+                    </div>
 
                     <div class="form-group w-100">
                         <label asp-for="Department" class="control-label"></label>
@@ -90,37 +96,8 @@
                 </div>
 
 
-                <div class="d-flex flex-md-row flex-column gap-2 mt-4">
-               
-                        <div class="form-group w-100">
-                            <label asp-for="CreatedById" class="control-label"></label>
-                            <input asp-for="CreatedById" class="form-control" />
-                            <span asp-validation-for="CreatedById" class="text-danger"></span>
-                        </div>
-      
-                        <div class="form-group w-100">
-                            <label asp-for="CreatedOn" class="control-label"></label>
-                            <input asp-for="CreatedOn" class="form-control" />
-                            <span asp-validation-for="CreatedOn" class="text-danger"></span>
-                        </div>
 
-
-                    <div class="form-group w-100">
-                        <label asp-for="ModifiedById" class="control-label"></label>
-                        <input asp-for="ModifiedById" class="form-control" />
-                        <span asp-validation-for="ModifiedById" class="text-danger"></span>
-                    </div>
-
-                    <div class="form-group w-100">
-                        <label asp-for="ModifiedOn" class="control-label"></label>
-                        <input asp-for="ModifiedOn" class="form-control" />
-                        <span asp-validation-for="ModifiedOn" class="text-danger"></span>
-                    </div>
-
-               
-                </div>
-
-            <div class="form-group">
+            <div class="form-group mt-4">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
             </div>
